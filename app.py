@@ -25,6 +25,7 @@ def load_data():
     data = pd.read_csv(r"C:\Users\dcmes\OneDrive - Universidad de los andes\Semestre 4\2. Desarrollo de Soluciones\Taller1\datos_energia.csv")
     data.iloc[:, 0] = pd.to_datetime(data.iloc[:, 0], format='%Y-%m-%d %H:%M:%S')
     data.set_index(data.columns[0], inplace=True)
+    print("hola")
 
     return data
     
