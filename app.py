@@ -8,6 +8,9 @@ import pandas as pd
 import datetime as dt
 
 
+# Este es el archivo principal de la aplicación Dash
+# Aquí se define la estructura de la aplicación, se cargan los datos y se configuran
+# david camelo ha realizado este commit para completar el taller 2 de desarrollo de soluciones
 
 app = dash.Dash(
     __name__,
